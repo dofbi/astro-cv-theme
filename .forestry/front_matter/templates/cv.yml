@@ -1,0 +1,139 @@
+---
+label: CV
+hide_body: true
+fields:
+- type: text
+  name: layout
+  label: layout
+  hidden: true
+- type: text
+  name: name
+  label: Name
+  config:
+    required: true
+- type: file
+  name: image
+  label: Image
+- name: function
+  type: text
+  config:
+    required: false
+  label: Function
+- name: address
+  type: text
+  config:
+    required: false
+  label: Address
+- name: email
+  type: text
+  config:
+    required: false
+  label: E-mail
+- name: telephone
+  type: text
+  config:
+    required: false
+  label: Telephone
+- name: skills
+  type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+  - name: percentage
+    type: number
+    label: Percentage
+    description: ''
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Skills
+- name: languages
+  type: field_group_list
+  fields:
+  - name: language
+    type: text
+    config:
+      required: false
+    label: Language
+  - name: percentage
+    type: number
+    label: Percentage
+    description: ''
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Languages
+- name: experience
+  type: field_group_list
+  fields:
+  - name: experience
+    type: text
+    config:
+      required: false
+    label: Experience
+  - name: period
+    type: text
+    config:
+      required: false
+    label: Period
+  - name: current
+    type: boolean
+    label: Current
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Description
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Work Experience
+- name: educations
+  type: field_group_list
+  fields:
+  - name: education
+    type: text
+    config:
+      required: false
+    label: Education
+  - name: period
+    type: text
+    config:
+      required: false
+    label: Period
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Description
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Educations
