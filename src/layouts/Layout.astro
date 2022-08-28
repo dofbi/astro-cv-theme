@@ -1,5 +1,6 @@
 ---
 import Avatar from '../components/Avatar.astro';
+import Text from '../components/Text.astro';
 import Title from '../components/Title.astro';
 import Subtitle from '../components/Subtitle.astro';
 import Skills from '../components/Skills.astro';
@@ -38,10 +39,10 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
       <div class="w3-white w3-text-grey w3-card-4">
         <Avatar name={frontmatter.name} image={frontmatter.image} />
         <div class="w3-container">
-          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>{frontmatter.function}</p>
-          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>{frontmatter.address}</p>
-          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>{frontmatter.email}</p>
-          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>{frontmatter.telephone}</p>
+          <Text text={frontmatter.function} icon="fa-briefcase" />
+          <Text text={frontmatter.address} icon="fa-home" />
+          <Text text={frontmatter.email} icon="fa-envelope" />
+          <Text text={frontmatter.telephone} icon="fa-phone" />
           <hr>
 
           <Subtitle text="Skills" icon="fa-asterisk" />
@@ -62,12 +63,12 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     
       <div class="w3-container w3-card w3-white w3-margin-bottom">
         <Title text="Work Experience" icon="fa-suitcase" />
-        <Experience/>
+        <Experience lists={frontmatter.experiences}/>
       </div>
 
       <div class="w3-container w3-card w3-white">
         <Title text="Education" icon="fa-certificate" />
-        <Education/>
+        <Education lists={frontmatter.educations}/>
       </div>
 
     <!-- End Right Column -->
@@ -80,8 +81,8 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 </div>
 
 <footer class="w3-container w3-teal w3-center w3-margin-top">
-  <Social/>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+  <Social lists={frontmatter.social}/>
+  <p>Powered by <a href="https://github.com/dofbi/astro-cv-theme" target="_blank">dofbi</a></p>
 </footer>
 
 </body>

@@ -22,7 +22,7 @@ languages:
   percentage: 55
 - language: German
   percentage: 25
-experience:
+experiences:
 - experience: Front End Developer / w3schools.com
   period: Jan 2015
   current: true
@@ -47,7 +47,19 @@ educations:
 - education: School of Coding
   period: 2010 - 2013
   description: Bachelor Degree
-
+social:
+- icon: fa-facebook-official
+  link: https://www.facebook.com
+- icon: fa-instagram
+  link: https://www.instagram.com
+- icon: fa-snapchat
+  link: https://www.snapchat.com
+- icon: fa-pinterest-p
+  link: https://www.pinterest.fr
+- icon: fa-twitter
+  link: https://twitter.com
+- icon: fa-linkedin
+  link: https://www.linkedin.com
 ---
 
 # hello
