@@ -4,6 +4,9 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: document
+  path: src/config.json
+  label: Config
 - type: directory
   path: src/pages
   label: CV

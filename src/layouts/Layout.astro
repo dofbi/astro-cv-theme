@@ -8,13 +8,17 @@ import Languages from '../components/Languages.astro';
 import Experience from '../components/Experience.astro';
 import Education from '../components/Education.astro';
 import Social from '../components/Social.astro';
+import site from '../config.json';
 const { frontmatter } = Astro.props;
 ---
 <!DOCTYPE html>
-<html>
+<html lang={ site.siteLanguage }>
 <head>
-<title>W3.CSS Template</title>
+<title>{site.siteTitle}</title>
 <meta charset="UTF-8">
+<meta name="description" content={site.siteDescription}>
+<meta name="keywords" content={site.siteKeywords}>
+<meta name="author" content={site.siteAuthor}>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="generator" content={Astro.generator} />
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
