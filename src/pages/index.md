@@ -29,14 +29,14 @@ experiences:
   description: Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt
     aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque
     repellendus iure, iste.
-- experience: Graphic Designer / designsomething.com
-  period: Jun 2010 - Mar 2012
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 - experience: Web Developer / something.com
   period: Mar 2012 - Dec 2014
   description: Consectetur adipisicing elit. Praesentium magnam consectetur vel in
     deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio,
     unde doloremque repellendus iure, iste.
+- experience: Graphic Designer / designsomething.com
+  period: Jun 2010 - Mar 2012
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 educations:
 - education: W3Schools.com
   period: Forever
@@ -60,6 +60,6 @@ social:
   link: https://twitter.com
 - icon: fa-linkedin
   link: https://www.linkedin.com
----
 
+---
 # hello

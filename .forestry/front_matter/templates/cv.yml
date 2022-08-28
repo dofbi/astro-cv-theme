@@ -80,7 +80,7 @@ fields:
     max: 
     labelField: 
   label: Languages
-- name: experience
+- name: experiences
   type: field_group_list
   fields:
   - name: experience
@@ -137,3 +137,23 @@ fields:
     max: 
     labelField: 
   label: Educations
+- name: social
+  type: field_group_list
+  fields:
+  - name: icon
+    type: text
+    config:
+      required: false
+    label: Icon
+    description: The complete set of 675 icons in <a href="https://fontawesome.com/v4/icons/"
+      title="" target="_blank">Font Awesome 4.7.0</a>
+  - name: link
+    type: text
+    config:
+      required: false
+    label: Link
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Social
