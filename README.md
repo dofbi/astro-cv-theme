@@ -1,8 +1,16 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/331f0f5c-d362-45b6-aee2-2965d3ce448e/deploy-status)](https://app.netlify.com/sites/astro-cv-theme/deploys) [![Run Build](https://github.com/dofbi/astro-cv-theme/actions/workflows/build-test.yml/badge.svg)](https://github.com/dofbi/astro-cv-theme/actions/workflows/build-test.yml)
+
 # Astro CV theme
 
 CV theme for [Astro](https://docs.astro.build).
 
 ![screenshot](https://www.w3schools.com/w3css/img_temp_cv.jpg)
+
+The easiest way to get started is to [import this theme in Forestry CMS](https://app.forestry.io/quick-start?repo=dofbi/astro-cv-theme) in a single click & [Deploy to Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/dofbi/astro-cv-theme)
+
+[![Import this project into Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=dofbi/astro-cv-theme)
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/dofbi/astro-cv-theme)
 
 ## Demo
 
