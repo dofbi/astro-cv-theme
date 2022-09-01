@@ -3,7 +3,7 @@ const { lists } = Astro.props;
 ---
 <p>Find me on social media.</p>
 {lists.map((item) => (
-<a href={item.link} target="_black" style="text-decoration:none">
+<a href={item.link} target="_black" aria-label={item.name} style="text-decoration:none">
   <i class={`fa ${item.icon} w3-hover-opacity`}></i>
 </a>
 ))}

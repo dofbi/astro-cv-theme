@@ -48,18 +48,25 @@ educations:
   period: 2010 - 2013
   description: Bachelor Degree
 social:
-- icon: fa-facebook-official
+- name: Facebook
+  icon: fa-facebook-official
   link: https://www.facebook.com
-- icon: fa-instagram
+- name: Instagram
+  icon: fa-instagram
   link: https://www.instagram.com
-- icon: fa-snapchat
+- name: Snapchat
+  icon: fa-snapchat
   link: https://www.snapchat.com
-- icon: fa-pinterest-p
+- name: Pinterest
+  icon: fa-pinterest-p
   link: https://www.pinterest.fr
-- icon: fa-twitter
+- name: Twitter
+  icon: fa-twitter
   link: https://twitter.com
-- icon: fa-linkedin
+- name: Linkedin
+  icon: fa-linkedin
   link: https://www.linkedin.com
 
 ---
+
 # hello
