@@ -4,7 +4,7 @@
 
 CV theme for [Astro](https://docs.astro.build).
 
-![screenshot](https://www.w3schools.com/w3css/img_temp_cv.jpg)
+![screenshot](https://repository-images.githubusercontent.com/529833874/107fb2f3-8f17-4f03-a4d3-2cc034904b43)
 
 The easiest way to get started is to [import this theme in Forestry CMS](https://app.forestry.io/quick-start?repo=dofbi/astro-cv-theme) in a single click & [Deploy to Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/dofbi/astro-cv-theme)
 
