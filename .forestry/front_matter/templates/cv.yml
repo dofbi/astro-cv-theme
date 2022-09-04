@@ -140,6 +140,11 @@ fields:
 - name: social
   type: field_group_list
   fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
   - name: icon
     type: text
     config:
